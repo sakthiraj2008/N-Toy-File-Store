@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "11472991"))
 API_HASH = environ.get("API_HASH", "c78c50d54baf2173e8b3f75c359c0c72")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7637355126:AAF4pLwacEQJhGoiYON1TNd3neWfnM4P3E8")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://envs.sh/EyO.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS','7188069786').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "N_TOY_DORK_BOT") # without @
 PORT = environ.get("PORT", "8080")
