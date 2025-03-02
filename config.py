@@ -20,7 +20,7 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "11472991"))
 API_HASH = environ.get("API_HASH", "c78c50d54baf2173e8b3f75c359c0c72")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7637355126:AAF4pLwacEQJhGoiYON1TNd3neWfnM4P3E8")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7637355126:AAFXbKEcDWXaDewd_ebsFzgu2myZ-WGsxTY")
 
 PICS = (environ.get('PICS', 'https://envs.sh/EyO.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS','7188069786').split()]
@@ -70,7 +70,7 @@ WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or Fa
 WEBSITE_URL = environ.get("WEBSITE_URL", "") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
