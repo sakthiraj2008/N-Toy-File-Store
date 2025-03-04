@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "11472991"))
 API_HASH = environ.get("API_HASH", "c78c50d54baf2173e8b3f75c359c0c72")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7637355126:AAFXbKEcDWXaDewd_ebsFzgu2myZ-WGsxTY")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7833583025:AAHyfGXbEBbWr-12DWJHO84VvORFNCrIZz4")
 
-PICS = (environ.get('PICS', 'https://envs.sh/EyO.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS','7188069786').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "N_TOY_DORK_BOT") # without @
+PICS = (environ.get('PICS', 'https://envs.sh/Qqq.jpg')).split() # Bot Start Picture
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS','1430742022').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "File_sharing_Pro_tn_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
