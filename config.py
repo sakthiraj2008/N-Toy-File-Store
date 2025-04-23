@@ -20,7 +20,7 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "11472991"))
 API_HASH = environ.get("API_HASH", "c78c50d54baf2173e8b3f75c359c0c72")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7833583025:AAHyfGXbEBbWr-12DWJHO84VvORFNCrIZz4")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7833583025:AAE9cs-eKeiaqX2EhfQI8Ev7qOLxj2xMZTc")
 
 PICS = (environ.get('PICS', 'https://envs.sh/Qqq.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS','1430742022').split()]
@@ -59,9 +59,9 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 VERIFY_MODE = bool(environ.get('VERIFY_MODE', False)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "gplinks.in") # shortlink domain without https://
-SHORTLINK_API = environ.get("SHORTLINK_API", "0245a7db53282409d303f88c6d65e7adcc9c4703") # shortlink api
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/quick_download_linkzz/2") # how to open link 
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "linkpays.in") # shortlink domain without https://
+SHORTLINK_API = environ.get("SHORTLINK_API", "8036b78d9b4f2ada3d00877dee7252cfaa359fb2") # shortlink api
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/quick_download_linkzz/12") # how to open link 
 
 # Website Info:
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
